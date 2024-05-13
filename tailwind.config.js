@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       animation: {
-        "fly-into": "fly-into 8s normal forwards linear",
-        'fade-into': "fade-into 8s normal forwards linear"
+        "fly-into": "fly-into 5s normal forwards linear",
+        'fade-into': "fade-into 5s normal forwards linear"
       },
       keyframes: {
         'fly-into': {
@@ -15,7 +15,7 @@ export default {
             transform: 'scale(40%)',
           },
           "40%": {
-            opacity: 100,
+            opacity: 40,
           },
           "90%": {
             opacity: 100,
@@ -27,7 +27,7 @@ export default {
         },
         'fade-into': {
           "0%": {
-            opacity: 90,
+            opacity: 100,
           },
           "80%": {
             opacity: 0,

@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"generate:images-meta": "./image-parser ./static/images ./lib/data/",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
